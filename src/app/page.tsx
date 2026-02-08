@@ -18,14 +18,36 @@ export default function Home() {
       <section className="py-20 bg-navy border-t border-white/5">
         <div className="container mx-auto px-6 text-center">
           <h3 className="text-sm font-bold uppercase tracking-widest text-white/30 mb-10">Trusted Relationship Network</h3>
-          <div className="flex flex-wrap items-center justify-center gap-12 md:gap-24 grayscale opacity-50">
-            {/* Placeholders for logos */}
-            {["Global Secondary Fund", "Leading Tech Family Office", "Tier-1 VC Fund", "Sovereign Wealth Partner"].map((name, i) => (
-              <div key={i} className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-full bg-white/20" />
-                <span className="text-lg font-serif font-bold text-white/80">{name}</span>
-              </div>
-            ))}
+          <div className="relative flex overflow-hidden group">
+            <div className="flex animate-marquee whitespace-nowrap gap-12 md:gap-24 grayscale opacity-50 hover:opacity-80 transition-opacity duration-500">
+              {[
+                { name: "Insight Partners", initial: "I" },
+                { name: "Accel", initial: "A" },
+                { name: "Index Ventures", initial: "I" },
+                { name: "Lightspeed", initial: "L" },
+                { name: "General Atlantic", initial: "G" },
+                { name: "NEA", initial: "N" },
+                { name: "Bessemer", initial: "B" },
+                { name: "Khosla Ventures", initial: "K" },
+                { name: "Insight Partners", initial: "I" }, // Duplicate for seamless loop
+                { name: "Accel", initial: "A" },
+                { name: "Index Ventures", initial: "I" },
+                { name: "Lightspeed", initial: "L" },
+                { name: "General Atlantic", initial: "G" },
+                { name: "NEA", initial: "N" },
+                { name: "Bessemer", initial: "B" },
+                { name: "Khosla Ventures", initial: "K" }
+              ].map((fund, i) => (
+                <div key={i} className="flex items-center gap-3 shrink-0">
+                  <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center font-serif text-white/60 text-lg">
+                    {fund.initial}
+                  </div>
+                  <span className="text-lg font-medium text-white/50 tracking-wide font-serif">{fund.name}</span>
+                </div>
+              ))}
+            </div>
+
+            {/* Infinite Marquee of Boutique Funds */}
           </div>
         </div>
       </section>

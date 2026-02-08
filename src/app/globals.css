@@ -4,14 +4,15 @@
   --font-sans: var(--font-inter);
 
   /* Semantic Color System */
-  --color-primary: #0A2540;
-  /* Navy profondo */
-  --color-secondary: #635BFF;
-  /* Blu elettrico */
-  --color-accent: #00D4AA;
-  /* Verde acqua */
+  --color-primary: #0A1A2F;
+  /* Boutique Navy */
+  --color-secondary: #0A1A2F;
+  /* Secondary is also Navy for monochrome feel, or use a lighter navy */
+  --color-accent: #D4AF37;
+  /* Gold */
+  --color-gold: #D4AF37;
 
-  --color-neutral-dark: #1A1F36;
+  --color-neutral-dark: #050E1A;
   /* Grigio scuro/nero */
   --color-neutral-light: #F7FAFC;
   /* Grigio chiarissimo */

@@ -26,15 +26,14 @@ export function Footer() {
                             <ul className="space-y-2 text-sm text-white/50">
                                 <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
                                 <li><Link href="/process" className="hover:text-white transition-colors">Our Process</Link></li>
-                                <li><Link href="/insights" className="hover:text-white transition-colors">Insights</Link></li>
                                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                             </ul>
                         </div>
                         <div>
-                            <h4 className="font-bold mb-4 text-gold text-sm uppercase tracking-wider">Legal</h4>
+                            <h4 className="font-bold mb-4 text-gold text-sm uppercase tracking-wider">Contact</h4>
                             <ul className="space-y-2 text-sm text-white/50">
-                                <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
-                                <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
+                                <li><a href="mailto:contact.valexflow@gmail.com" className="hover:text-white transition-colors">contact.valexflow@gmail.com</a></li>
+                                <li><a href="tel:+393665424379" className="hover:text-white transition-colors">+39 366 542 4379</a></li>
                             </ul>
                         </div>
                     </div>
@@ -46,15 +45,9 @@ export function Footer() {
                     </p>
 
                     <div className="flex gap-4">
-                        <Link href="#" className="p-2 rounded-full bg-white/5 hover:bg-white/10 transition-colors text-white/70 hover:text-white">
-                            <Linkedin className="w-4 h-4" />
-                        </Link>
-                        <Link href="#" className="p-2 rounded-full bg-white/5 hover:bg-white/10 transition-colors text-white/70 hover:text-white">
-                            <Twitter className="w-4 h-4" />
-                        </Link>
-                        <Link href="#" className="p-2 rounded-full bg-white/5 hover:bg-white/10 transition-colors text-white/70 hover:text-white">
+                        <a href="mailto:contact.valexflow@gmail.com" className="p-2 rounded-full bg-white/5 hover:bg-white/10 transition-colors text-white/70 hover:text-gold">
                             <Mail className="w-4 h-4" />
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -11,8 +11,8 @@ const steps = [
     },
     {
         icon: Cpu,
-        title: "AI-Priced & Curated",
-        description: "Our proprietary models analyze private market data to determine fair value and match you with pre-vetted institutional buyers.",
+        title: "Market-Calibrated Valuation",
+        description: "We leverage deep private market data to provide accurate valuation guidance, ensuring you understand the true demand for your asset.",
     },
     {
         icon: Handshake,

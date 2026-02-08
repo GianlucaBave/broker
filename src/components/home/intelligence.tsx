@@ -32,13 +32,13 @@ export function Intelligence() {
                         </h2>
 
                         <p className="text-lg text-white/70 mb-8 leading-relaxed">
-                            We combine human expertise with machine intelligence to analyze private market data, identify fair value, and pinpoint the optimal buyers for every transaction.
+                            We bridge the gap between private assets and institutional liquidity. Using deep market intelligence, we align seller objectives with buyer mandates for precise execution.
                         </p>
 
                         <ul className="space-y-6">
                             {[
-                                { title: "Smart Price Discovery", desc: "Real-time regression models based on latest secondary print data.", icon: LineChart },
-                                { title: "Buyer Matching Engine", desc: "Algorithmic mapping of buyer mandates to seller assets.", icon: Database },
+                                { title: "Direct Cap Table Access", desc: "We work directly with issuers to structure compliant transfers.", icon: LineChart },
+                                { title: "Global Buyer Network", desc: "Connecting you with Tier-1 US funds and family offices.", icon: Database },
                             ].map((item, i) => (
                                 <li key={i} className="flex gap-4">
                                     <div className="mt-1 w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">

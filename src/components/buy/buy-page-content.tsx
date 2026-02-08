@@ -114,7 +114,7 @@ export function BuyPageContent() {
                             </h1>
 
                             <p className="text-lg text-muted mb-8 max-w-lg leading-relaxed">
-                                Valex Flow provides qualified institutional buyers with a curated stream of off-market secondary opportunities, priced by our proprietary AI models.
+                                Valex Flow provides qualified institutional buyers with a curated stream of off-market secondary opportunities, based on deep market data.
                             </p>
 
                             <div className="space-y-6 border-t border-white/10 pt-8">
